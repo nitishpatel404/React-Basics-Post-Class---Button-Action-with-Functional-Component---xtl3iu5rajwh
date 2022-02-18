@@ -7,14 +7,14 @@ const[text,usetext]=useState(true)
   
   const shoot = () => 
      {
-       usetext(false)
+       usetext("Hello, I've learnt to use the full-stack evaluation tool. This makes me so happy")
         }
   return (
     
     <div id="main" >
-    <div hidden={text}>
+   
          
-          <p id="para">Hello, I've learnt to use the full-stack evaluation tool. This makes me so happy</p>
+          <p id="para">{text}</p>
 </div>
           
       
